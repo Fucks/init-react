@@ -1,0 +1,17 @@
+.action-buttons-container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .action-buttons-container > button {
+    height: 100%;
+    margin: 0 8px; }
+
+.action-button {
+  height: 40px;
+  background-color: #369ddc;
+  border: 1px solid #2a83bf;
+  color: #ffffff; }
+  .action-button:hover, .action-button:focus {
+    color: #ffffff;
+    background: #2a83bf; }

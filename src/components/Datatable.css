@@ -1,0 +1,40 @@
+.action-buttons-container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .action-buttons-container > button {
+    height: 100%;
+    margin: 0 8px; }
+
+.action-button {
+  height: 40px;
+  background-color: #369ddc;
+  border: 1px solid #2a83bf;
+  color: #ffffff; }
+  .action-button:hover, .action-button:focus {
+    color: #ffffff;
+    background: #2a83bf; }
+
+.datatable .ant-table-thead > tr > th {
+  background: #ffffff;
+  border-top: 1px solid #369ddc;
+  border-bottom: 1px solid #369ddc;
+  color: #353c45;
+  font-weight: 700; }
+
+.datatable .ant-table-tbody > tr:nth-child(odd) {
+  background-color: #ffffff; }
+
+.datatable .ant-table-tbody > tr:nth-child(even) {
+  background-color: #f6f7f8; }
+
+.datatable .ant-pagination {
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  display: flex; }
+
+.datatable .react-loading-skeleton {
+  line-height: 3;
+  margin: 5px 0; }

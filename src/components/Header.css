@@ -1,0 +1,58 @@
+.action-buttons-container {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .action-buttons-container > button {
+    height: 100%;
+    margin: 0 8px; }
+
+.action-button {
+  height: 40px;
+  background-color: #369ddc;
+  border: 1px solid #2a83bf;
+  color: #ffffff; }
+  .action-button:hover, .action-button:focus {
+    color: #ffffff;
+    background: #2a83bf; }
+
+header.header {
+  display: flex;
+  background: #369ddc;
+  min-height: 56px;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center; }
+  header.header > div {
+    display: flex; }
+  header.header left {
+    flex: 1;
+    height: 100%;
+    align-items: center; }
+  header.header .right {
+    justify-content: center;
+    height: 100%; }
+  header.header .logo {
+    max-height: 56px;
+    max-width: 56px;
+    min-width: 56px;
+    min-height: 56px;
+    background: #2a83bf; }
+  header.header .user {
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 36px;
+    height: 56px;
+    letter-spacing: 0.6px; }
+    header.header .user:before {
+      content: '';
+      width: 2px;
+      background: #41ace1;
+      height: 35%;
+      margin-right: 36px; }
+
+/* Telefones em landscape e abaixo */
+/* Telefone em landscape a tablet em portrait */
+/* tablet em portrait a landscape e desktop */
+/* Desktop grande */

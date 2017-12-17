@@ -1,0 +1,17 @@
+@import "styles/default.scss";
+
+.tableFilter{
+  flex-direction: row;
+  display: flex;
+  padding-bottom: 16px;
+
+  & div{
+    align-items: center;
+    flex-grow: 1;
+
+    & span {
+      padding-right: 8px;
+    }
+  }
+
+}

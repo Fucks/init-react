@@ -1,0 +1,60 @@
+@import "styles/default.scss";
+
+header.header{
+    display: flex;
+    background: $primaryColor;
+    min-height: 56px;
+    flex-direction: row;
+    justify-content: space-between; //todo - remover - apenas para teste
+    color: $white;
+    align-items: center;
+
+    & > div{
+      display: flex;
+    }
+
+    left{
+      flex: 1;
+      height: 100%;
+      align-items: center;
+    }
+
+    .right{
+      justify-content: center;
+      height: 100%;
+    }
+
+    .logo{
+      max-height: 56px;
+      max-width: 56px;
+      min-width: 56px;
+      min-height: 56px;
+      background: $primaryColor900;
+    }
+
+    .user{
+      align-items: center;
+      justify-content: flex-start;
+      padding-right: 36px;
+      height: 56px;
+      letter-spacing: 0.6px;
+
+      &:before{
+        content: '';
+        width: 2px;
+        background: #41ace1;
+        height: 35%;
+        margin-right: 36px
+      }
+    }
+}
+
+
+/* Telefones em landscape e abaixo */
+@media (max-width: 480px) {  }
+/* Telefone em landscape a tablet em portrait */
+@media (max-width: 767px) {  }
+/* tablet em portrait a landscape e desktop */
+@media (min-width: 768px) and (max-width: 979px) {  }
+/* Desktop grande */
+@media (min-width: 1200px) {  }

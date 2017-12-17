@@ -1,0 +1,25 @@
+@import "styles/colors.scss";
+
+.action-buttons-container{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  & > button{
+    height: 100%;
+    margin: 0 8px;
+  }
+}
+
+.action-button{
+  height: 40px;
+  background-color: $primaryColor;
+  border: 1px solid $primaryColor900;
+  color: $white;
+
+  &:hover, &:focus{
+    color: $white;
+    background: $primaryColor900;
+  }
+}

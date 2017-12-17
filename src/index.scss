@@ -1,0 +1,19 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import 'styles/default.scss';
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  background: $background;
+  color: $font-color;
+}
+body *{
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  padding: 16px;
+}

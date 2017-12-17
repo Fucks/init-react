@@ -1,0 +1,18 @@
+@import 'styles/default.scss';
+
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  background: $background;
+}
+
+body div{
+  display: inherit;
+  flex-direction: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

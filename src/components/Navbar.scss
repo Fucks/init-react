@@ -1,0 +1,53 @@
+@import "styles/default.scss";
+
+nav.navbar{
+  display: flex;
+  flex-direction: row;
+  min-height: 56px;
+  max-height: 56px;
+  height: 56px;
+  box-shadow: $box-shadow;
+  background: $white;
+  color: $nav-font-color;
+  padding: 0 32px;
+  justify-content: space-between;
+
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+  }
+
+  & li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    padding: 0 16px;
+    font-weight: 600;
+    height: 100%;
+    cursor: pointer;
+    transition: border .2s ease-in;
+
+    & i{
+      transform: scale(1.4);
+      padding: 0 3px;
+    }
+
+    &.nav:hover{
+      border-bottom: 5px solid $primaryColor900;
+    }
+  }
+
+  & a.active > .nav{
+    border-bottom: 5px solid $primaryColor900;
+  }
+
+  &.nav:active, &.nav:focus, &.nav:hover{
+    text-decoration: none;
+  }
+}
